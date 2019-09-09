@@ -19,6 +19,7 @@ int main() {
 
 	return 0;
 }
+'''
 
 <h1> Smart pointers </h1>
 
