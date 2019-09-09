@@ -9,17 +9,20 @@ Value semantics reffer to *copying* the value of the right element into the left
 By default C++ uses value semantics but Java and C# use reference semantics.
 An example of the previous can be seen here:
 
-'''
+```C++
 int main() {
 	int array[5] = {0, 1, 2, 3, 4};
 	int array_2[5] = array;
 	array_2[3] = 99;
 
-	int value = array[3]; // This will have the value of 3 not 99 because C++ is *value semantics*
+	int value = array[3]; // This will have the value of 3 not 99 because C++ assignments are based on Value semantics
+
+	int value_2 = array_2[3]; // This will have the value of 99.
 
 	return 0;
 }
-'''
+```
+
 
 <h1> Smart pointers </h1>
 
