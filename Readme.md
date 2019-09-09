@@ -7,7 +7,9 @@ This handbook will be an utility for developers who want to learn all the new C+
 <h1> Modification history </h1>
 <ul>
 	<li> September 8 of 2019:
-		<ul> The handbook was created! </ul>
-		<ul> Initiated the chapter on smart pointers </ul>
+		<ul> 
+			<li> The handbook was created! </li>
+			<li> Initiated the chapter on smart pointers </li>
+		</ul>
 	</li>
 </ul>
