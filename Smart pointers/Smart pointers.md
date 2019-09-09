@@ -15,7 +15,6 @@ An example of the previous can be seen here:
 <h4>This example ilustrates copy assignment</h4>
 
 ```C++
-// 
 void CopyExample() {
 	int array[5] = {0, 1, 2, 3, 4};
 	int copy[5] = array;
