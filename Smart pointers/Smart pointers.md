@@ -5,7 +5,7 @@ Before delving into too many detail about smart pointers I consider it's pertine
 <h3> Value semantics vs Reference semantics </h3>
 
 This concept is applied to assignments. I.e., left = right.
-Value semantics reffer to **copying** the value of the right element into the left. In the other hand, reference semantics reffers to **copying** the pointer of the right element into the left. Value semantics not only applies to assignments, they are also applied to:
+Value semantics reffer to **copying the value** of the right element into the left. In the other hand, reference semantics reffers to **copying the pointer** of the right element into the left. Value semantics not only applies to assignments, they are also applied to:
 <ul>
 	<li> Parameters </li>
 </ul>		
