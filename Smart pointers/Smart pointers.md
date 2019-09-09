@@ -1,6 +1,6 @@
 <h1> Introduction </h1>
 
-Prior diving into too much detail about smart pointers I consider it's pertinent to clarify one concept:
+Before delving into too many detail about smart pointers I consider it's pertinent to clarify one concept:
 
 <h3> Value semantics vs Reference semantics </h3>
 
@@ -15,7 +15,8 @@ int main() {
 	int array_2[5] = array;
 	array_2[3] = 99;
 
-	int value = array[3]; // This will have the value of 3 not 99 because C++ assignments are based on Value semantics
+	int value = array[3]; // This will have the value of 3 not 99
+	// because C++ assignments are based on Value semantics
 
 	int value_2 = array_2[3]; // This will have the value of 99.
 
